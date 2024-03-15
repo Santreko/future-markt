@@ -1,0 +1,6 @@
+.main-logo {
+	@media (max-width: 320px) {
+		width: 96px;
+		height: 20px;
+	}
+}

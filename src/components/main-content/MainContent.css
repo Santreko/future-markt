@@ -1,0 +1,177 @@
+.main-content {
+	padding: 176px 0 115px 0;
+	margin-right: auto;
+	position: relative;
+
+	@media (max-width: 320px) {
+		padding: 65px 0 92px 15px;
+	}
+}
+
+.main-content__header {
+	margin: 0;
+	margin-bottom: 53px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 65px;
+	line-height: 135.3%;
+
+	@media (max-width: 320px) {
+		font-size: 25px;
+		margin-bottom: 35px;
+		width: 252px;
+	}
+}
+
+.main-content__description {
+	opacity: 0.5;
+	margin: 0;
+	margin-bottom: 64px;
+	line-height: 150%;
+	padding-left: 25px;
+	position: relative;
+
+	@media (max-width: 320px) {
+		display: none;
+	}
+}
+
+.main-content__description::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '';
+	width: 1px;
+	height: 100%;
+	background-color: white;
+}
+
+.main-content__description--mobile {
+	display: none;
+
+	@media (max-width: 320px) {
+		display: block;
+		font-size: 11px;
+		margin-bottom: 50px;
+	}
+}
+
+.main-content__button {
+	cursor: pointer;
+	width: 380px;
+	height: 71px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-weight: 600;
+	padding: 25px 5px 24px 24px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 122.8%;
+
+	@media (max-width: 320px) {
+		width: 126px;
+		height: 31px;
+		padding: 9px 5px 9px 0;
+		display: block;
+		margin-bottom: 16px;
+	}
+}
+
+.main-content__button--mobile {
+	@media (max-width: 320px) {
+		font-size: 10px;
+	}
+}
+
+.main-content__button__name {
+	@media (max-width: 320px) {
+		display: none;
+	}
+}
+
+.main-content__button__name--mobile {
+	display: none;
+
+	@media (max-width: 320px) {
+		display: block;
+	}
+}
+
+.main-content__button svg {
+	position: absolute;
+	bottom: 13px;
+	right: 13px;
+
+	@media (max-width: 320px) {
+		bottom: 6px;
+		right: 5px;
+		width: 8px;
+		height: 9px;
+	}
+}
+
+.main-content__button--consultation-appointment {
+	margin-right: 40px;
+	color: #07305D;
+	background-color: white;
+	position: relative;
+
+	@media (max-width: 320px) {
+		padding-left: 20px;
+	}
+}
+
+.main-content__button--consultation-appointment::before {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #0B3461;
+	top: 0;
+	right: 73px;
+
+	@media (max-width: 320px) {
+		right: 27px;
+	}
+}
+
+@media (max-width: 320px) {
+	.main-content__button--consultation-appointment::before {
+		right: 27px;
+	}
+}
+
+.main-content__button--free-consultation {
+	color: inherit;
+	border: solid 1px white;
+	background-color: transparent;
+	position: relative;
+
+	@media (max-width: 320px) {
+		padding-left: 8px;
+		margin-bottom: 0;
+	}
+}
+
+.main-content__button--free-consultation::before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background-color: white;
+	top: 0;
+	right: 73px;
+
+	@media (max-width: 320px) {
+		right: 27px;
+	}
+}
+
+@media (max-width: 320px) {
+	.main-content__button--free-consultation::before {
+		right: 27px;
+	}
+}
